@@ -1,0 +1,31 @@
+Package: PortinariColors
+Type: Package
+Title: Color Palettes Inspired by the Paintings of Candido Portinari
+Version: 0.3.0
+Authors@R: 
+    person("Rafa", "Lopes", email = "lopes1313@gmail.com",
+           role = c("aut", "cre"))
+Description: Color palettes inspired by paintings of Candido Portinari held by
+    the Sao Paulo Museum of Art (MASP) and by his Guerra (War) and Paz (Peace)
+    panels at the United Nations Headquarters. Provides qualitative, diverging
+    and sequential palettes for discrete and continuous data, ready-made
+    'ggplot2' color and fill scales, and a colorblind-safety check that
+    simulates protanopia, deuteranopia and tritanopia following Machado,
+    Oliveira and Fernandes (2009) <doi:10.1109/TVCG.2009.113>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+RoxygenNote: 7.3.2
+URL: https://rafalopespx.github.io/PortinariColors/,
+        https://github.com/rafalopespx/PortinariColors
+BugReports: https://github.com/rafalopespx/PortinariColors/issues
+Imports: ggplot2 (>= 3.4.0), grDevices, graphics, stats, utils
+Suggests: spelling, testthat (>= 3.1.5)
+Config/testthat/edition: 3
+Config/Needs/website: pkgdown, rmarkdown, knitr
+NeedsCompilation: no
+Packaged: 2026-10-18 17:18:16 UTC; rl957
+Author: Rafa Lopes [aut, cre]
+Maintainer: Rafa Lopes <lopes1313@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-28 11:30:15 UTC
